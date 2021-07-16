@@ -4,6 +4,9 @@ main>.container {
 
 /*"." is class designation */
 
+main>.container-fluid{
+    padding-top: 60px;
+}
 
 body> main {
     margin-bottom: 60px;
@@ -28,4 +31,4 @@ body> main {
 
 .minHeight {
     min-height: 80vh; /*80% of screen */
-}
+    }

@@ -60,9 +60,28 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           
-       </div>
+        <div class="container h-100 minHeight">
+            <!--First Row-->
+            <div class="row row-cols-1 row-cols-md-2 h-100 gy-1">
+                <!--stretch out first column across entire width-->
+                <div class="col col-md-12">
+                    <div class="bg-secondary text-dark h-100">Col Main</div>
+                </div>
+                <!--divide other columns by half during mobile display-->
+                <div class="col-6 col-md-3 order-last">
+                    <div class="bg-dark text-light h-100">Col One - ordered last</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-secondary text-dark h-100">Col Two</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-secondary text-dark h-100">Col Three</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-secondary text-dark h-100">Col Four</div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark">
         <div class="container-fluid text-center">
